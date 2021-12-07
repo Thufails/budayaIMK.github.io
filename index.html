@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="layar-dalam">
+            <div class="logo">
+                <a href=""><img src="asset/logo-white.png" class="putih" /></a>
+                <a href=""><img src="asset/logo-black.png" class="hitam" /></a>
+            </div>
+            <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                </a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tentangkita">Tentang Web</a></li>
+                    <li><a href="#support">Informasi</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#team">Tim</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="layar-penuh">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="asset/kebudayaan2.mp4" type="video/mp4" />
+            </video>
+            <div class="intro">
+                <h3>Kebudayaan Indonesia</h3>
+                <p>Kebudayaan daerah tercermin dalam berbagai aspek kehidupan masyarakat di seluruh daerah di Indonesia. Setiap daerah memilki ciri khas kebudayaan yang berbeda.
+                </p>
+                <p>
+                    <a href="" class="tombol">More Info</a>
+                </p>
+            </div>
+        </header>
+
+        <main>
+            <section id="tentangkita">
+                <div class="layar-dalam">
+                    <h3>Tentang Web</h3>
+                    <p class="ringkasan">Web sederhana yang berisi tentang kebudayaan yang ada di Indonesia</p>
+                    <div class="konten-isi">
+                        <p>
+                            Memperkenalkan anda pengunjung dari web ini untuk mengenal beragam kebudayaan dan tempat wisata yang indah dan cantik di Indonesia
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section class="abuabu" id="support">
+                <div class="layar-dalam support">
+                    <div><img src="asset/indonesia.png">
+                        <h6>Indonesia</h6>
+                        <p>Disebut juga dengan Negara Kesatuan Republik Indonesia adalah negara di Asia Tenggara yang dilintasi garis khatulistiwa dan berada di antara daratan benua Asia dan Oseania, serta antara Samudra Pasifik dan Samudra Hindia. Indonesia
+                            adalah negara kepulauan terbesar di dunia yang terdiri dari 17.504 pulau. Nama alternatif yang biasa dipakai adalah Nusantara. Dengan populasi mencapai 270.203.917 jiwa pada tahun 2020, Indonesia menjadi negara berpenduduk
+                            terbesar keempat di dunia.
+                        </p>
+                    </div>
+                    <div><img src="asset/kompas.png">
+                        <h6>Letak Indonesia</h6>
+                        <p>Letak geografis adalah letak di mana suatu daerah itu dilihat dari kenyataannya di bumi dan menentukan pula letak posisi antara daerah yang satu dengan daerah yang lainnya. Nah, kalau secara astronomis, Indonesia terletak di 6º
+                            LU (Lintang Utara) - 11º LS (Lintang Selatan) dan 95º BT (Bujur Timur) - 141º BT (Bujur Timur)
+                        </p>
+                    </div>
+                    <div><img src="asset/budaya.png">
+                        <h6>Budaya</h6>
+                        <p>Kebudayaan Indonesia adalah seluruh kebudayaan nasional, kebudayaan lokal, maupun kebudayaan asal asing yang telah ada di Indonesia. Budaya Indonesia dapat juga diartikan bahwa Indonesia memiliki beragam suku bangsa dan budaya
+                            yang beragam seperti tarian daerah, pakaian adat, dan rumah adat. Budaya Indonesia tidak hanya mencakup budaya asli bumiputera, tetapi juga mencakup budaya-budaya yang mendapat pengaruh budaya Tionghoa, Arab, India, dan Eropa.
+                        </p>
+                    </div>
+                </div>
+                <div class="layar-dalam support">
+                    <div><img src="asset/tim.png">
+                        <h6>Tim Penyusun</h6>
+                        <p>Web dirancang oleh mahasiswa yang berasal dari Universitas Jember, Fakultas Ilmu Komputer, Program Studi Sistem Informasi secara berkelompok yang dengan anggota Idris Muhammad NIM 212410101030 dan Muhammad Rafi Thufail NIM 212410101082.
+                        </p>
+                    </div>
+                    <div><img src="asset/information.png">
+                        <h6>Kelengkapan Informasi</h6>
+                        <p>Web ini dibuat sesederhana mungkin tetapi memiliki kelengkapan informasi tentang kebudayaan Indonesia. Dibuat dengan konsep menampilkan gambar agar pengunjung web tertarik dan nyaman ketika membaca atau mengunjungi web ini
+                        </p>
+                    </div>
+                    <div><img src="asset/search.png">
+                        <h6>Narasumber</h6>
+                        <p>Informasi yang tercantum dalam web ini yang menampilkan informasi tentang kebudayaan serta tempat wisata yang ada di Indonesia, berasal dari sumber yang terpercaya. Sumber-sumber tersebut berasal dari seperti Wikipedia, Jurnal-jurnal,
+                            Blog dari para Traveller domestik maupun mancanegara.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="horizontal-scroll">
+                    <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i
+                            class="fas fa-chevron-left"></i></button>
+                    <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i
+                            class="fas fa-chevron-right"></i></button>
+                    <div class="gallery-container">
+                        <div><img src="asset/foto1.jpg"></div>
+                        <div><img src="asset/blog2.jpg"></div>
+                        <div><img src="asset/foto3.jpg"></div>
+                        <div><img src="asset/foto4.jpg"></div>
+                        <div><img src="asset/foto5.jpg"></div>
+                        <div><img src="asset/foto6.jpg"></div>
+                        <div><img src="asset/foto7.jpg"></div>
+                        <div><img src="asset/foto8.jpg"></div>
+                        <div><img src="asset/foto9.jpg"></div>
+                        <div><img src="asset/blog4.jpg "></div>
+                        <div><img src="asset/foto11.jpg"></div>
+                        <div><img src="asset/foto2.jpg"></div>
+                        <div><img src="asset/blog1.jpg"></div>
+                        <div><img src="asset/foto12.jpg"></div>
+                        <div><img src="asset/blog3.jpg"></div>
+                        <div><img src="asset/foto13.jpg"></div>
+                        <div><img src="asset/foto10.jpg"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="abuabu" id="blog">
+                <div class="layar-dalam">
+                    <h3>Berbagai Budaya</h3>
+                    <p class="ringkasan">
+                        Berikut adalah penjelasan tentang kebudayaan Indonesia secara singkat dan general
+                    </p>
+                    <div class="blog">
+                        <div class="blog-scroll">
+                            <button class="btn-scroll" id="btn-scroll-left" onclick="scrollKananKiri(1)"><i
+                                    class="fas fa-chevron-left"></i></button>
+                            <button class="btn-scroll" id="btn-scroll-right" onclick="scrollKananKiri(-1)"><i
+                                    class="fas fa-chevron-right"></i></button>
+                            <div class="blog-container">
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog1.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Suku Jawa</a></h4>
+                                            <div>
+                                                <p>
+                                                    Suku Jawa merupakan suku terbesar yang berada di Indonesia. Suku ini terkenal akan tatakrama, lemah lembut, dan sopan. Masyarakatnya tidak hanya berada di Jawa saja, melainkan tersebar ke seluruh pelosok Indonesia.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog2.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Tari Jaipongan</a></h4>
+                                            <div>
+                                                <p>
+                                                    Jaipongan adalah sebuah jenis tari pergaulan tradisional masyarakat Sunda yang berasal dari wilayah Karawang dan sangat populer di Indonesia, yang berkembang pada tahun 60-an.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog3.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Wayang Golek</a></h4>
+                                            <div>
+                                                <p>
+                                                    Wayang golek merupakan salah satu dari ragam kesenian wayang, yang berasal dari masyarakat Sunda di Jawa Barat. Pertunjukan seni wayang golek merupakan seni pertunjukan teater rakyat yang banyak dipagelarkan.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog4.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Alat Musik Tifa</a></h4>
+                                            <div>
+                                                <p>
+                                                    Tifa merupakan alat musik khas Indonesia bagian Timur, khususnya Maluku dan Papua. Alat musik ini bentuknya menyerupai kendang dan terbuat dari kayu yang di lubangi tengahnya.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog5.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Lagu Daerah Bungong Jeumpa</a></h4>
+                                            <div>
+                                                <p>
+                                                    Bungong Jeumpa, Keindahan serta Kemahsyurannya bagi Masyarakat Aceh. Bagi Masyarakat Aceh lagu ini bukan sekedar lagu daerah melainkan melambangkan semangat dan keindahan tanah Aceh.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog6.png');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Tari Kecak</a></h4>
+                                            <div>
+                                                <p>
+                                                    adalah seni tari yang berasal dari Bali. Seni tari kecak ini dipertunjukkan oleh puluhan penari laki-laki yang duduk berbaris dengan pola melingkar dan dengan irama tertentu menyerukan "cak, cak, cak" serta mengangkat kedua lengan.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog7.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Suku Madura</a></h4>
+                                            <div>
+                                                <p>
+                                                    Suku Madura merupakan salah satu etnis dengan populasi besar di Indonesia, jumlahnya sekitar 7.179.356 juta jiwa. Mereka berasal dari Pulau Madura dan pulau-pulau sekitarnya.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="area">
+                                    <div class="gambar" style="background-image: url('asset/blog8.jpg');"></div>
+                                    <div class="text">
+                                        <article>
+                                            <h4><a href="">Rumah Adat Gadang</a></h4>
+                                            <div>
+                                                <p>
+                                                    Rumah Gadang adalah rumah tradisional dari suku minangkabau. Menurut bentuknya, rumah adat ini disebut rumah gonjong atau rumah bagonjong (rumah bergonjong), karena bentuk atapnya yang bergonjong runcing menjulang.
+                                                </p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="quote">
+                <div class="layar-dalam">
+                    <p>Kebudayaan nasional yang berlandaskan Pancasila adalah perwujudan cipta, karya, dan karsa bangsa Indonesia dan merupakan keseluruhan daya upaya manusia Indonesia untuk mengembangkan harkat dan martabat sebagai bangsa, serta diarahkan
+                        untuk memberikan wawasan dan makna pada pembangunan nasional dalam segenap bidang kehidupan bangsa. Dengan demikian Pembangunan Nasional merupakan pembangunan yang berbudaya.Departemen Pendidikan dan Kebudayaan, Wujud, Arti dan
+                        Puncak-Puncak Kebudayaan Lama dan Asli bagi Masyarakat Pendukungnya,</p>
+                </div>
+            </section>
+            <section id="team">
+                <div class="layar-dalam"></div>
+                <h3>Tim Kita</h3>
+                <p class="ringkasan">tim penyusun web mahasiswa dalam memenuhi tugas akhir </p>
+                <div class="tim">
+                    <div class="tim1"><img src="asset/tim1.jpeg">
+                        <h6>M. Rafi Thufail</h6>
+                        <span>Sistem Informasi</span>
+                        <br>
+                        <span>212410101082</span>
+                    </div>
+                    <div class="tim2"><img src="asset/tim2.jpg">
+                        <h6>Idris Muhammad</h6>
+                        <span>Sistem Informasi</span>
+                        <br>
+                        <span>212410101030</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Navigasi</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#tentangkita">Tentang Web</a></li>
+                            <li><a href="#support">Informasi</a></li>
+                            <li><a href="#gallery">Galeri</a></li>
+                            <li><a href="#team">Tim</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacts</h4>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/idrsmhmd_/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/traveloka"><i class="fab fa-twitter"></i></a>
+                            <a href="https://wa.me/0895421423897"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Bantuan</h4>
+                        <p>If you need help,<br>you can send your<br> advice to
+                            <a href="mailto:abahc4mp3x@gmail.com"> here</a></p>
+                    </div>
+                    <div class="footer-col" class="help">
+                        <h4>Kantor</h4>
+                        <p>Mastrip Street 7 No. 3
+                            <br>Sumbersari
+                            <br>Jember, Jawa Timur
+                            <br>
+                            <br>Senin-Jum'at
+                            <br>09.00-16.00
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    &copy; 2021 Kebudayaan Indonesia
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="javascript.js"></script>
+        <div id="runningtext">
+            <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop() ;" onmouseout="this.start() ;" direction="left">
+                Terima Kasih Atas Kunjungan Kalian
+            </marquee>
+        </div>
+</body>
+
+</html>
